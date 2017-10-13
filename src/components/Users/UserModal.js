@@ -80,7 +80,7 @@ class UserEditModal extends Component{
 							label="Website"
 						>
 							{
-								getFieldDecorator('email', {
+								getFieldDecorator('website', {
 									initialValue: website,
 								})(<Input />)
 							}
